@@ -1,5 +1,5 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -12,6 +12,7 @@ body {
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
+    padding: 0 100px;
 }
 
 .nav {
@@ -32,13 +33,15 @@ body {
 
 .grey-box {
     background-color: grey;
-    padding: 20px;
+    padding: 50px 150px;
     text-align: center;
+    /* width: 500px; */
+    /* height: 200px; */
 }
 
 .awesome {
     display: flex;
-    padding: 30px;
+    padding: 60px 0;
 }
 
 .awesome-left {
@@ -50,6 +53,15 @@ body {
     /* border: 5px solid green; */
     display: flex;
     flex-direction: column;
+    padding: 50px;
+}
+
+.main1header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .box {
@@ -57,7 +69,6 @@ body {
     height: 100px;
     width: 100px;
     border-radius: 5px;
-
 }
 
 .boxes {
@@ -65,10 +76,20 @@ body {
     justify-content: space-around;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+}
 
 .main2 {
     /* border: 5px solid red; */
     background-color: #E5E7EB;
+}
+
+.quote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
@@ -76,15 +97,36 @@ body {
     text-align: center;
 }
 
+.author {
+    font-weight: bold;
+    text-align: right;
+    padding-bottom: 50px;
+}
+
+
 .main3 {
     /* border: 5px solid yellow; */
     background-color: #3882F6;
     color: #E5E7EB;
     display: flex;
+    padding: 50px;
+}
+
+.calltext {
+    display: flex;
+    flex-direction: column;
+    
+}
+.call {
+    font-weight: bold;
+}
+
+.signup2 {
+    margin-left: auto;
 }
 
 .footer {
-    /* border: 5px solid purple; */
+    border: 5px solid purple;
     background-color: #1F2937;
     color:#E5E7EB;
 }
